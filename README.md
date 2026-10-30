@@ -1,4 +1,4 @@
-# Any Civitai SD 1.5 model — RunPod Serverless worker
+# SD 1.5 Universal — RunPod Serverless worker
 
 A ready-to-build [RunPod Serverless](https://runpod.io?ref=qpguwapm) worker for **any SD 1.5 checkpoint on Civitai**. You paste the model's Civitai link into the `Dockerfile`; the build downloads that model and bakes it into the image. Based on the official [`runpod/worker-comfyui`](https://github.com/runpod-workers/worker-comfyui).
 

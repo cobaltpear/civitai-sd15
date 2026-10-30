@@ -1,5 +1,5 @@
 #!/bin/sh
-# Any Civitai SD 1.5 model (or Hugging Face SD 1.5 model) — everything the worker image needs. The Dockerfile in your copy downloads this file
+# SD 1.5 Universal (any SD 1.5 model from Civitai or Hugging Face) — everything the worker image needs. The Dockerfile in your copy downloads this file
 # from the original repo on every build, so fixes made there reach you with a rebuild.
 set -eu
 # civitai.env in your copy (made by Cobalt Pear's «Add your token» link) wins over the two Dockerfile lines
